@@ -1,0 +1,13 @@
+f = open("input", "r").read()
+f.close()
+
+arr1:int = []
+arr2:int = []
+
+arr_diff:int = []
+
+i:int = 0
+while i < len(f):
+    for x in range(13):
+        print(f[i+x])
+    i+=13;
