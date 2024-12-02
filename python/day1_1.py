@@ -1,5 +1,5 @@
 #!/bin/python
-f = open("testinput", "r").read()
+f = open("input1_1", "r").read()
 
 arrl:int = []
 arrr:int = []
